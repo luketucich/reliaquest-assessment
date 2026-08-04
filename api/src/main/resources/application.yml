@@ -1,1 +1,4 @@
 spring.application.name: entry-level-java-challenge
+
+# Overridden by the API_KEY environment variable. The fallback is for local runs only.
+api.security.api-key: ${API_KEY:local-development-key}
